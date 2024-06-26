@@ -1,0 +1,169 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.titulo{
+    font-weight: bold;
+}
+
+.titulo:hover{
+    font-weight: normal;
+    color: #c8d3d9;
+}
+
+.containerr {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas de igual ancho */
+    gap: 10px; /* Espacio entre las columnas */
+
+    padding: 0px;
+}
+.columna {
+    padding: 10px;
+}
+.icono i {
+    font-size: 36px;
+    color: #6cdbbb;
+}
+
+.menu {
+    background-color: #c8d3d9;
+    color: black;
+
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 20px 60px;
+    display: block;
+}
+
+.menu ul li a:hover {
+    text-decoration: none;
+    background-color: #1fbf91;
+}
+
+.contenedorBien {
+    background-color: #112e40;
+    height: 400px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center
+}
+
+.inicio{
+    background-color: #1fbf91;
+    height: 250px;
+    width: 65%;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+
+.caja{
+    background-color: #6cd9ba;
+    height: 180px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+
+.piee {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* Dos columnas de igual ancho */
+    gap: 10px; /* Espacio entre las columnas */
+
+    padding: 0px;
+}
+ .titulos_pie{
+    color: white;
+    font-weight: bold;
+ }
+
+ .enlaces{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+ }
+
+
+
+ .slider {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.slide img {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.slide p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+
+button.prev:hover, button.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.welcome-title {
+    text-align: center; /* Centrar el texto */
+    font-size: 2.5rem; /* Tamaño de la fuente */
+    color: #333; /* Color del texto */
+    margin-top: 50px; /* Margen superior */
+    padding: 20px; /* Relleno interior */
+    font-family: Arial, sans-serif; /* Familia de fuentes */
+    border-bottom: 2px solid #ccc; /* Línea inferior */
+}
